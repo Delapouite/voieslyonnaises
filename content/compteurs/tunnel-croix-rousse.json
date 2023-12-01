@@ -4,7 +4,10 @@
   "arrondissement": "Lyon 4",
   "imageUrl": "https://source.unsplash.com/AoSAOV2Vtro",
   "idPdc": 100030143,
-  "coordinates": [4.813997, 45.77463],
+  "coordinates": [
+    4.813997,
+    45.77463
+  ],
   "counts": [
     {
       "month": "2016/04/01",
@@ -369,6 +372,10 @@
     {
       "month": "2023/10/01",
       "count": 140701
+    },
+    {
+      "month": "2023/11/01",
+      "count": 114298
     }
   ]
 }
