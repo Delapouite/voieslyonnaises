@@ -20,3 +20,11 @@ export function removeDiacritics(string: string) {
     .replace(/[\u0300-\u036F]/g, '')
     .toLowerCase();
 }
+
+/**
+ * For news date
+ */
+export function formatDate(date: string) {
+  const options = { year: 'numeric', month: 'short', day: 'numeric' } as const;
+  return new Date(date).toLocaleDateString('fr-FR', options);
+}
